@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "境外投资",
+      "title": "客户欲收购香港上市壳公司",
+      "date": "2018-12-19",
+      "time": "11:04:00",
+      "watch": "390",
+      "up": "390",
+      "body": "现有一位在金融服务、健康管理、社会服务领域的中国潜在投资者，拟购买一家在美国上市的公司的壳资源，所需壳资源不限定于上述领域。此投资者已有一家NASDAQ的上市公司。",
+      "item_money": "1000000",
+      "item_num": "P201812200001",
+      "item_type": "项目收购、项目合作",
+      "item_class": "壳资源",
+      "item_work": "金融投资",
+      "item_location": "上海市",
+      "item_state": "未接洽",
+      "item_long": "长期",
+      "item_file": "香港公司资料.docx",
+      "user_name": "王尊月",
+      "user_location": "上海",
+      "user_type": "合伙人",
+      "user_email": "zunyue1025@163.com",
+      "user_call": "010-8888888",
+      "user_phone": "18888888888"
+    },
+    {
+      "id": 2,
+      "type": "境外投资",
+      "title": "客户欲收购香港上市壳公司",
+      "date": "2018-12-19",
+      "time": "11:04:00",
+      "watch": "390",
+      "up": "390",
+      "body": "现有一位在金融服务、健康管理、社会服务领域的中国潜在投资者，拟购买一家在美国上市的公司的壳资源，所需壳资源不限定于上述领域。此投资者已有一家NASDAQ的上市公司。",
+      "item_money": "1000000",
+      "item_num": "P201812200001",
+      "item_type": "项目收购、项目合作",
+      "item_class": "壳资源",
+      "item_work": "金融投资",
+      "item_location": "上海市",
+      "item_state": "未接洽",
+      "item_long": "长期",
+      "item_file": "香港公司资料.docx",
+      "user_name": "王尊月",
+      "user_location": "上海",
+      "user_type": "合伙人",
+      "user_email": "zunyue1025@163.com",
+      "user_call": "010-8888888",
+      "user_phone": "18888888888"
+    },
+    {
+      "id": 3,
+      "type": "境外投资",
+      "title": "客户欲收购香港上市壳公司",
+      "date": "2018-12-19",
+      "time": "11:04:00",
+      "watch": "390",
+      "up": "390",
+      "body": "现有一位在金融服务、健康管理、社会服务领域的中国潜在投资者，拟购买一家在美国上市的公司的壳资源，所需壳资源不限定于上述领域。此投资者已有一家NASDAQ的上市公司。",
+      "item_money": "1000000",
+      "item_num": "P201812200001",
+      "item_type": "项目收购、项目合作",
+      "item_class": "壳资源",
+      "item_work": "金融投资",
+      "item_location": "上海市",
+      "item_state": "未接洽",
+      "item_long": "长期",
+      "item_file": "香港公司资料.docx",
+      "user_name": "王尊月",
+      "user_location": "上海",
+      "user_type": "合伙人",
+      "user_email": "zunyue1025@163.com",
+      "user_call": "010-8888888",
+      "user_phone": "18888888888"
+    }
+  ],
+  "comments": [
+    {
+      "id": "a",
+      "txt": "react 好啊",
+      "postId": 1
+    },
+    {
+      "id": "a1",
+      "txt": "react 棒啊",
+      "postId": 1
+    },
+    {
+      "id": "b",
+      "txt": "vue 好啊",
+      "postId": 2
+    },
+    {
+      "id": "b1",
+      "txt": "vue 棒啊",
+      "postId": 2
+    }
+  ]
+}

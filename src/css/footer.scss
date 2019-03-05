@@ -1,0 +1,24 @@
+.mint-tabbar {
+  position: fixed;
+}
+.mint-tabbar > .mint-tab-item {
+  color: #888695;
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+  color: #26a2ff;
+}
+.icon {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.mint-tab-item-label span {
+  font-size: 1em;
+  display: block;
+  margin-top: 0.5em;
+}
+.mint-tabbar > .mint-tab-item {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
