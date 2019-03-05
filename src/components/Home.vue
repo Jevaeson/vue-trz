@@ -135,7 +135,7 @@
         </div>
         <div v-else>wait</div>
       </mt-tab-container-item>
-      <mt-tab-container-item id="2">推荐项目</mt-tab-container-item>
+      <mt-tab-container-item id="2">测试测试</mt-tab-container-item>
       <mt-tab-container-item id="3">最热项目</mt-tab-container-item>
     </mt-tab-container>
   </div>
