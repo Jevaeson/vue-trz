@@ -7,6 +7,10 @@ export default {
   props: ["txt"],
   data: () => ({}),
   computed: {
+
+
+
+
     title() {
       switch (this.txt) {
         case "/":
@@ -27,11 +31,16 @@ export default {
 
 <style lang='scss'>
 header {
+
+
+
+
+  
   width: 100%;
   height: 3.6em;
   line-height: 3.6em;
   background-color: #fff;
-  color: #666675;
+  color: #333;
   text-align: center;
 }
 </style>

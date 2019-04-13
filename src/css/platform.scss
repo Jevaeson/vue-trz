@@ -1,0 +1,26 @@
+.plat {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-top: 0.2em solid #f2f2f2;
+  > div > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    border-bottom: 1px solid #f2f2f2;
+    span {
+      font-size: 16px;
+      color: #333;
+      margin-left: -11em;
+    }
+    svg {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .icontu {
+      color: #26a2ff;
+    }
+  }
+}

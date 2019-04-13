@@ -9,7 +9,9 @@ import {
   Search,
   Navbar,
   TabContainer,
-  TabContainerItem
+  TabContainerItem,
+  Picker,
+  Popup
 } from 'mint-ui'
 import router from './router'
 import store from './store'
@@ -24,6 +26,8 @@ Vue.component(Search.name, Search)
 Vue.component(Navbar.name, Navbar)
 Vue.component(TabContainer.name, TabContainer)
 Vue.component(TabContainerItem.name, TabContainerItem)
+Vue.component(Picker.name, Picker)
+Vue.component(Popup.name, Popup)
 
 // ReactDOM.render(<App />,dom节点)
 // 将虚拟的 vue dom 节点，渲染到真实的 dom 节点上

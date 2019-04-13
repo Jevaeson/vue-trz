@@ -1,48 +1,18 @@
 <template>
-  <div>
-    <Header :txt="txt"/>
-    <div class="inputBox">
-      <input type="text" class="input" placeholder="请输入关键字搜索">
-    </div>
-    <div class="item_lists">
-      <div>
-        <span>类型</span>
+  <div class="vip">
+    <div class="vip-up">
+      <router-link to="/me">
         <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-xiajiantou"></use>
+          <use xlink:href="#icon-fanhui"></use>
         </svg>
-      </div>
-      <div>
-        <span>分类</span>
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-xiajiantou"></use>
-        </svg>
-      </div>
-      <div>
-        <span>行业</span>
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-xiajiantou"></use>
-        </svg>
-      </div>
-      <div>
-        <span>地区</span>
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-xiajiantou"></use>
-        </svg>
-      </div>
-      <div>
-        <span>排序</span>
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-xiajiantou"></use>
-        </svg>
-      </div>
+      </router-link>
+      <span>我的项目</span>
     </div>
     <div v-if="items.length">
       <div v-for="item in items" :key="item.id" class="item">
         <div class="item-up">
-          <button v-if="item.top">置顶</button>
-          <div v-else :style="{display: 'none' }"></div>
-          <span class="type" :style="{marginLeft: item.top ? '-1em' : '0'}">【{{item.type}}】</span>
-          <h4 :style="{marginLeft: item.top ? '-1em' : '-3em'}">{{item.title}}</h4>
+          <span class="type">【{{item.type}}】</span>
+          <h4>{{item.title}}</h4>
           <svg
             class="icon kong"
             aria-hidden="true"
@@ -112,43 +82,15 @@
 </template>
 
 <script>
-import Header from "./Header";
 export default {
-  components: {
-    Header
-  },
   data: () => ({}),
   computed: {
-    txt() {
-      return this.$route.path;
-    },
     items() {
       return this.$store.state.items.items;
-    }
-  },
-  created() {
-    this.$store.dispatch("getItems");
-  },
-  methods: {
-    up(id, bool, up) {
-      const obj = new Object();
-      obj.isUp = bool;
-      if (bool) {
-        obj.up = up + 1;
-      } else {
-        obj.up = up - 1;
-      }
-      this.$store.dispatch("up", { id, obj });
-    },
-    receive(id, bool) {
-      const obj1 = new Object();
-      obj1.item_state = bool;
-      this.$store.dispatch("receive", { id, obj1 });
     }
   }
 };
 </script>
 
 <style lang='scss'>
-@import "../css/item.scss";
 </style>
